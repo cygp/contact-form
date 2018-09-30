@@ -1,0 +1,50 @@
+* {box-sizing: border-box;}
+body {
+	background-color: #dcdde1;
+}
+body > h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+.contactForm {
+	box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    width: 250px;
+    padding: 10px;
+    background-color: #40739e;
+}
+.contactItem {
+	background-color: #40739e;
+	padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+.contactData {
+	padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactData > p {
+	font-size: 21px;
+	color: #f5f6fa;
+}
+button {
+	height: 35px;
+	background-color: #dcdde1;
+    color: #626262;
+	border: 0;
+}
+input {
+	height: 35px;
+	margin-bottom: 10px;
+}
+#app {
+	display: flex;
+	justify-content: center;
+}
