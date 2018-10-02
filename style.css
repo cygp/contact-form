@@ -37,9 +37,10 @@ body > h1 {
         justify-content: center;
 }
 .contactData > p,
- .contactData > a {
+.contactData > a {
 	font-size: 21px;
 	color: #f5f6fa;
+    margin-top: 0;
 }
 button {
 	height: 35px;
