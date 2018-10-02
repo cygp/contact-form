@@ -8,8 +8,10 @@ body > h1 {
 }
 .contactForm {
 	box-sizing: border-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     position: fixed;
     left: 30px;
     top: 20px;
@@ -22,15 +24,20 @@ body > h1 {
 	padding: 20px;
     margin-bottom: 10px;
     border-radius: 5px;
+    display: -ms-flexbox;
     display: flex;
 }
 .contactData {
 	padding: 10px;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
 }
-.contactData > p {
+.contactData > p,
+ .contactData > a {
 	font-size: 21px;
 	color: #f5f6fa;
 }
@@ -45,6 +52,8 @@ input {
 	margin-bottom: 10px;
 }
 #app {
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
 }
